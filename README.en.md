@@ -1,4 +1,4 @@
-## Overview
+### Overview
 Trying to create a live-reload for Go app by [cosmtrek/air](https://github.com/cosmtrek/air)
 
 ### Usage
@@ -7,4 +7,5 @@ Trying to create a live-reload for Go app by [cosmtrek/air](https://github.com/c
 - make up
 ```
 
-
+### License
+GNU General Public License v3.0
