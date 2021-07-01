@@ -1,0 +1,14 @@
+# ホットリロードを試すのみの為最小構成とする
+version: "3"
+services:
+  app:
+    build: .
+    tty: true
+    # ホットリローダーのairを起動する
+    command: air -c .air.toml
+    ports: 
+      - "5000:5000"''
+    volumes:
+      - type: bind
+        source: .
+        target: /go/src/app
