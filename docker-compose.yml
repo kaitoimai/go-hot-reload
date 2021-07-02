@@ -7,7 +7,7 @@ services:
     # ホットリローダーのairを起動する
     command: air -c .air.toml
     ports: 
-      - "5000:5000"''
+      - "5000:5000"
     volumes:
       - type: bind
         source: .
